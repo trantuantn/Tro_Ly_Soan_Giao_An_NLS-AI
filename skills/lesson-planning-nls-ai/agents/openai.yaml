@@ -1,0 +1,4 @@
+interface:
+  display_name: "PRO 5.0 – Soạn giáo án NLS & AI"
+  short_description: "Soạn và kiểm định giáo án tích hợp NLS, AI"
+  default_prompt: "Dùng $lesson-planning-nls-ai soạn kế hoạch bài dạy theo học liệu đính kèm, tích hợp NLS và AI khi phù hợp."
