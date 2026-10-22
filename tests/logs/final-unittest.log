@@ -1,0 +1,29 @@
+test_100_pass (test_validator.ValidationTests.test_100_pass) ... ok
+test_85_boundary (test_validator.ValidationTests.test_85_boundary) ... ok
+test_below_threshold (test_validator.ValidationTests.test_below_threshold) ... ok
+test_bool_score_invalid (test_validator.ValidationTests.test_bool_score_invalid) ... ok
+test_core_source_blocks (test_validator.ValidationTests.test_core_source_blocks) ... ok
+test_each_hard_gate_failure (test_validator.ValidationTests.test_each_hard_gate_failure) ... ok
+test_empty_activities_invalid (test_validator.ValidationTests.test_empty_activities_invalid) ... ok
+test_escape_link (test_validator.ValidationTests.test_escape_link) ... ok
+test_evidence_required (test_validator.ValidationTests.test_evidence_required) ... ok
+test_invalid_name (test_validator.ValidationTests.test_invalid_name) ... ok
+test_missing_category_invalid (test_validator.ValidationTests.test_missing_category_invalid) ... ok
+test_missing_gate_invalid (test_validator.ValidationTests.test_missing_gate_invalid) ... ok
+test_missing_resource (test_validator.ValidationTests.test_missing_resource) ... ok
+test_missing_unresolved_invalid (test_validator.ValidationTests.test_missing_unresolved_invalid) ... ok
+test_native_materialized_folder (test_validator.ValidationTests.test_native_materialized_folder) ... ok
+test_negative_minutes_invalid (test_validator.ValidationTests.test_negative_minutes_invalid) ... ok
+test_nonfinite_score_invalid (test_validator.ValidationTests.test_nonfinite_score_invalid) ... ok
+test_over_max_invalid (test_validator.ValidationTests.test_over_max_invalid) ... ok
+test_overtime_blocks (test_validator.ValidationTests.test_overtime_blocks) ... ok
+test_package (test_validator.ValidationTests.test_package) ... ok
+test_qa_not_object (test_validator.ValidationTests.test_qa_not_object) ... ok
+test_undertime_blocks (test_validator.ValidationTests.test_undertime_blocks) ... ok
+test_unknown_not_pass (test_validator.ValidationTests.test_unknown_not_pass) ... ok
+test_unknown_status_invalid (test_validator.ValidationTests.test_unknown_status_invalid) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.040s
+
+OK

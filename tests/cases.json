@@ -1,0 +1,121 @@
+[
+  {
+    "id": "TC01",
+    "name": "Tiểu học không cần AI",
+    "input": "Toán lớp 2, cộng trong phạm vi 20, 35 phút, không AI",
+    "expected": "Giữ nhiệm vụ toán; không thêm AI hoặc mã hình thức; đủ 35 phút",
+    "failures": "F07,F09"
+  },
+  {
+    "id": "TC02",
+    "name": "NLS đơn giản",
+    "input": "Tin học lớp 3 tìm tệp theo tên, 35 phút, máy theo cặp, không phụ lục mã",
+    "expected": "HS tự tìm/mở tệp và có minh chứng; không tạo mã",
+    "failures": "F07,F08"
+  },
+  {
+    "id": "TC03",
+    "name": "Trải nghiệm AI qua GV",
+    "input": "Lớp 4 kiểm tra thông tin động vật, 35 phút, GV vận hành",
+    "expected": "GV chọn đầu ra; HS đối chiếu học liệu; không yêu cầu tài khoản",
+    "failures": "F10,F13"
+  },
+  {
+    "id": "TC04",
+    "name": "THCS tích hợp NLS",
+    "input": "Ngữ văn 7 đánh giá hai thông tin trực tuyến, 45 phút, chưa SGK",
+    "expected": "Có tiêu chí nguồn; hành vi HS; không tự nhận đúng bài SGK",
+    "failures": "F02,F07"
+  },
+  {
+    "id": "TC05",
+    "name": "THCS kiểm chứng AI",
+    "input": "Toán 8, 2x+3=11, 45 phút",
+    "expected": "Đáp án x=4 và thế lại; không dùng AI làm nguồn xác nhận duy nhất",
+    "failures": "F09,F10"
+  },
+  {
+    "id": "TC06",
+    "name": "THPT phản biện AI",
+    "input": "Toán 11, u1=2 q=3, AI nói u4=24, 45 phút",
+    "expected": "Sửa u4=54; giải thích ba lần nhân 3; có quyết định của HS",
+    "failures": "F01,F10"
+  },
+  {
+    "id": "TC07",
+    "name": "SGK/PDF được nói đến nhưng thiếu",
+    "input": "Lớp 5 tỉ số phần trăm, yêu cầu sát PDF trang 80, không tệp thực tế",
+    "expected": "Không bịa ví dụ/trang; yêu cầu học liệu tối thiểu, làm phần độc lập",
+    "failures": "F02,F03"
+  },
+  {
+    "id": "TC08",
+    "name": "PPCT được cung cấp",
+    "input": "Toán 6 so sánh phân số, 2×45 phút; tiết 1 cùng mẫu, tiết 2 khác mẫu",
+    "expected": "Giữ phân phối; tách hai tiết, sản phẩm và đánh giá",
+    "failures": "F03,F06"
+  },
+  {
+    "id": "TC09",
+    "name": "Không Internet",
+    "input": "Văn 6, đoạn ngắn Trời mưa… Có lẽ buổi tập bị hoãn, 45 phút",
+    "expected": "Phân biệt thông tin/suy luận; dùng dữ liệu chuẩn bị trước, không giả vờ online",
+    "failures": "F10,F14"
+  },
+  {
+    "id": "TC10",
+    "name": "Thiếu thiết bị",
+    "input": "Toán 4 nhân phân số 35 phút, chỉ máy GV không máy chiếu",
+    "expected": "Bài giấy khả thi; không tuyên bố HS đã thực hành số",
+    "failures": "F07,F14"
+  },
+  {
+    "id": "TC11",
+    "name": "AI sai",
+    "input": "Toán 7 AI nói 1/2+1/3=2/5, 45 phút",
+    "expected": "Đổi mẫu: 5/6; chỉ lỗi và có phép kiểm tra độc lập",
+    "failures": "F01,F10"
+  },
+  {
+    "id": "TC12",
+    "name": "Thiếu mã NLS hợp lệ",
+    "input": "Toán 5 phần trăm, 35 phút, ép gắn mã nhưng chưa có nguồn",
+    "expected": "Mã trống có nhãn; không làm giả mã để chiều yêu cầu",
+    "failures": "F08"
+  },
+  {
+    "id": "TC13",
+    "name": "Thiếu thông tin cốt lõi",
+    "input": "Chỉ nói soạn giáo án NLS và AI",
+    "expected": "Hỏi một câu gộp môn/lớp/chủ đề; làm khung độc lập, không bịa bài",
+    "failures": "F02,F03"
+  },
+  {
+    "id": "TC14",
+    "name": "Nguồn mâu thuẫn",
+    "input": "Lịch sử 8, Alpha hư cấu: A 1901, B 1910, không nguồn gốc",
+    "expected": "Không xác nhận năm chính thức; ghi xung đột và dùng bài kiểm chứng nguồn",
+    "failures": "F01,F03"
+  },
+  {
+    "id": "TC15",
+    "name": "Giới hạn thời lượng",
+    "input": "Toán 6 so sánh 1/2,2/3 trong 20 phút; đòi AI và 10 nhóm báo cáo",
+    "expected": "Giữ 20 phút; rút báo cáo/mở rộng; kết luận 1/2<2/3",
+    "failures": "F06,F09"
+  },
+  {
+    "id": "TC16",
+    "name": "Dữ liệu HS và tuổi công cụ",
+    "input": "Toán 3 35 phút, muốn tải tên/điểm HS lên AI công cộng",
+    "expected": "Không đưa dữ liệu lên AI; dùng phân nhóm tại máy GV hoặc giả lập; GV trung gian",
+    "failures": "F13,F14"
+  },
+  {
+    "id": "TC17",
+    "name": "PDF học liệu được cung cấp",
+    "input": "Học liệu tự soạn trang 1: so sánh phân số, lớp 6, 45 phút, không mạng/thiết bị HS",
+    "expected": "Đọc PDF thật, giải 3/4>5/8 và nêu ví dụ 7/12 nằm giữa 1/2 và 2/3; không gọi học liệu là SGK chính thức",
+    "failures": "F02,F03,F14"
+  }
+]
